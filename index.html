@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Christopher McCormack</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/40aa322a61.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <section id="landing-page">
+      <nav>
+        <figure>
+          <img
+            id="personal-logo"
+            src="assets/Designer logo CM.png"
+            alt=""
+            class=""
+          />
+        </figure>
+        <ul class="nav__link--list">
+          <li class="nav__link">
+            <a
+              href="#"
+              class="nav__link--anchor 
+              link__hover-effect 
+              link__hover-effect--black"
+            >
+              About</a
+            >
+          </li>
+          <li class="nav__link">
+            <a
+              href="#"
+              class="nav__link--anchor 
+              link__hover-effect 
+              link__hover-effect--black"
+            >
+              Projects</a
+            >
+          </li>
+          <li class="nav__link">
+            <a
+              href="#"
+              class="nav__link--anchor 
+              link__hover-effect 
+              link__hover-effect--black"
+            >
+              Contact</a
+            >
+          </li>
+          <li class="nav__link click">
+            <a
+              href="#"
+              class="lite-mode-icon 
+              nav__link--anchor 
+              icon__hover-effect 
+              link__hover-effect
+              icon__hover-effect--black"
+            >
+              <i class="fa-solid fa-circle-half-stroke"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+      <header class="header">
+        <div class="header__content">
+          <h1 class="title">Hello,</h1>
+          <h1 class="title blue">I am Chris.</h1>
+          <p class="header__para">
+            I'm a <b class="blue">Frontend Software Engineer </b>student with a
+            strong passion for building web applications with great user
+            experiences. Here's a bit more <a href="#" class="blue" onclick="toggleModal()"><b>About Me</b></a>
+          </p>
+          <div class="social__list">
+            <a href="https://www.linkedin.com/in/chris-mccormack-694257434/" target="_blank" class="social__link click">
+            <i class="fa-brands fa-linkedin fa-lg"></i>
+          </a>
+            <a href="https://github.com/chrismccormack70-blip" target="_blank" class="social__link click">
+            <i class="fa-brands fa-github fa-lg"></i>
+          </a>
+            <a href="./assets/Christopher_McCormack_Resume_2026.pdf" target="blank" class="social__link click">
+                <i class="fa-regular fa-file-pdf fa-lg"></i>
+            </a>
+          </div>
+        </div>
+      </header>
+      <button class="mail__btn click">
+        <i class="fa-regular fa-envelope"></i>
+      </button>
+      <a href="#projects" class="scroll">
+      <div class="scroll__icon click"></div>
+    </a>
+    <div class="modal">
+      <div class="modal__half modal__about">
+        <h3 class="modal__title modal__title--about">Here's a bit about me.</h3>
+        <h4 class="modal__sub-title modal__sub-title--about">Frontend Software Engineer Student.</h4>
+        <p class="modal__para">
+          Im the best coder in the world! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nostrum, perferendis, vero consectetur dolorem aperiam enim ad accusamus excepturi perspiciatis temporibus voluptate mollitia sit, dolores voluptas nam blanditiis. Est, facere.
+          <br>
+          <br>
+          I will add value to your business. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id cumque harum repellat, dolor, alias sapiente porro facilis hic eligendi placeat, quaerat optio tempore rerum? Nemo eos odit exercitationem dolorem assumenda!
+        </p>
+        <div class="modal__languages">
+          <figure class="modal__language">
+            <img class="modal__language--img"
+              src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/960px-HTML5_logo_and_wordmark.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              alt="">
+            <span class="language__name">HTML</span>
+          </figure>
+          <figure class="modal__language">
+            <img class="modal__language--img" src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png"
+              alt="">
+            <span class="language__name">CSS</span>
+          </figure>
+          <figure class="modal__language">
+            <img class="modal__language--img" src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png"
+              alt="">
+            <span class="language__name">JavaScript</span>
+          </figure>
+        </div>
+      </div>
+      <div class="modal__half modal__contact">Let's have a chat</div>
+    </div>
+    </section>
+    <section id="projects">
+      <div class="container">
+        <div class="row">
+          <h1 class="section__title">
+            Here are some of my <span class="blue">projects</span>
+          </h1>
+          <ul class="project__list">
+            <li class="project">
+              <div class="project__wrapper">
+                  <img src="assets/C&C Website.png" class="project__img">
+                  <div class="project__wrapper--bg"></div>
+                   <div class="project__description">
+                <h3 class="project__description--title">
+                  C & C Electric, LLC
+                </h3>
+                <h4 class="project__description--sub-title">
+                  Html, CSS, JavaScript
+                </h4>
+                <p class="project__description--para">
+                  C & C Electric, LLC is an electrical contracting company based out of Colorado Springs, CO USA. Their website is a multi page directory to the services they provide with a photo gallery of previous projects. I was the Master Electrician in charge of all the projects.
+                </p>
+                <div class="project__description--links">
+                  <a href="#" class="project__description--link">
+                    <i class="fa-brands fa-github fa-lg"></i>
+                  </a>
+                  <a href="#" class="project__description--link">
+                      <i class="fa-brands fa-github fa-lg"></i>
+                  </a>
+                </div>
+              </div>
+            </li> 
+            <br>
+            <li class="project">
+              <div class="project__wrapper">
+                  <img src="assets/blinker mockup.png" class="project__img">
+                  <div class="project__wrapper--bg"></div>
+                   <div class="project__description">
+                <h3 class="project__description--title">
+                  Car Sales Project
+                </h3>
+                <h4 class="project__description--sub-title">
+                  Html, CSS, JavaScript
+                </h4>
+                <p class="project__description--para">
+                  Google In-Store is a platform allowing Google ret all employees to report any issues with their
+                  store products. Once an issue is reported, it is posted to an API which populates a separate
+                  platform's frontend - which is used by Google's vendors to fix the issue as soon as possible. I was
+                  the sole
+                  front-end developer of this application.
+                </p>
+                <div class="project__description--links">
+                  <a href="#" class="project__description--link">
+                    <i class="fa-brands fa-github fa-lg"></i>
+                  </a>
+                  <a href="#" class="project__description--link">
+                      <i class="fa-brands fa-github fa-lg"></i>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <br>
+            <li class="project">
+              <div class="project__wrapper">
+                  <img src="assets/blinker mockup.png" class="project__img">
+                  <div class="project__wrapper--bg"></div>
+                   <div class="project__description">
+                <h3 class="project__description--title">
+                  Car Sales Project
+                </h3>
+                <h4 class="project__description--sub-title">
+                  Html, CSS, JavaScript
+                </h4>
+                <p class="project__description--para">
+                  Google In-Store is a platform allowing Google ret all employees to report any issues with their
+                  store products. Once an issue is reported, it is posted to an API which populates a separate
+                  platform's frontend - which is used by Google's vendors to fix the issue as soon as possible. I was
+                  the sole
+                  front-end developer of this application.
+                </p>
+                <div class="project__description--links">
+                  <a href="#" class="project__description--link">
+                    <i class="fa-brands fa-github fa-lg"></i>
+                  </a>
+                  <a href="#" class="project__description--link">
+                      <i class="fa-brands fa-github fa-lg"></i>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <br>
+            <li class="project">
+              <div class="project__wrapper">
+                  <img src="assets/blinker mockup.png" class="project__img">
+                  <div class="project__wrapper--bg"></div>
+                   <div class="project__description">
+                <h3 class="project__description--title">
+                  Car Sales Project
+                </h3>
+                <h4 class="project__description--sub-title">
+                  Html, CSS, JavaScript
+                </h4>
+                <p class="project__description--para">
+                  Google In-Store is a platform allowing Google ret all employees to report any issues with their
+                  store products. Once an issue is reported, it is posted to an API which populates a separate
+                  platform's frontend - which is used by Google's vendors to fix the issue as soon as possible. I was
+                  the sole
+                  front-end developer of this application.
+                </p>
+                <div class="project__description--links">
+                  <a href="#" class="project__description--link">
+                    <i class="fa-brands fa-github fa-lg"></i>
+                  </a>
+                  <a href="#" class="project__description--link">
+                      <i class="fa-brands fa-github fa-lg"></i>
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row footer__row">
+        <figure>
+        <img class="footer__logo--img" src="assets/Designer logo CM.png">
+      </figure>
+      <div class="footer__social--list">
+      <a href="#" class="
+      footer__social--link
+      link__hover-effect
+      link__hover-effect--white
+      ">
+        Github
+      </a>
+      <a href="#" class="
+      footer__social--link
+      link__hover-effect
+      link__hover-effect--white
+      ">
+        linkedIn
+      </a>
+      <a href="#" class="
+      footer__social--link
+      link__hover-effect
+      link__hover-effect--white
+      ">
+        Contact
+      </a>
+      <a href="#" class="
+      footer__social--link
+      link__hover-effect
+      link__hover-effect--white
+      ">
+        Resume
+      </a>
+      </div>
+      <div class="footer__copyright">Copyright &copy 2026 Chris McCormack</div>
+      </div>
+    </div>
+    </footer>
+  </body>
+</html>
